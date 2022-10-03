@@ -1,4 +1,125 @@
 /*Caleb Rummel
-September 17, 2022
+September 25, 2022
 CSD 340
-Assignment 7.2*/
+BioSite*/
+
+body {
+    background-color: #73A6A3;
+    font-family: 'Cabin', Veranda, Arial, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 4px #98999D;
+}
+header {
+    color: #F5E095;
+    background-color: #161B2F;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-family: 'Hahmlet', Georgia, "Times New Roman", serif;
+}
+
+#navbar{
+    overflow: hidden;
+    background-color: #455749;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: #F5E095;
+}
+
+#navbar a{
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Cabin', Veranda, Arial, sans-serif;
+}
+
+#navbar a:hover{
+    background-color: #98999D;
+}
+
+#container {
+    margin: 2% 5% 100px 5%;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 60%;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 9px;
+}
+
+.card-content {
+    text-align: center;
+}
+
+figcaption {
+    color: white;
+    font-family: 'Cabin', Veranda, Arial, sans-serif;
+    padding: 5px;
+}
+
+.columns-container {
+    float: left;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 5em;
+}
+
+.left-column {
+    margin-right: 400px;
+    float: left;
+}
+
+.right-column {
+    width: 300px;
+    margin-left: -25em;
+    float: left;
+    padding: 5px;
+}
+
+footer {
+    background-color: #161B2F;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    left: 0;
+    font-family: 'Cabin', Veranda, Arial, sans-serif;
+}
+
+#float-left {
+    float: left;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
