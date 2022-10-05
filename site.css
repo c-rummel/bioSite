@@ -49,12 +49,14 @@ h1 {
 #container {
     margin: 2% 5% 100px 5%;
     padding: 10px;
+    text-align: center;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 60%;
+    margin: auto;
 }
 
 .card-title {
@@ -65,12 +67,18 @@ h1 {
 
 .card-content {
     text-align: center;
+    padding: 5px;
 }
 
 figcaption {
     color: white;
     font-family: 'Cabin', Veranda, Arial, sans-serif;
     padding: 5px;
+}
+
+img {
+    background-color: black;
+    padding: 2px;
 }
 
 .columns-container {
